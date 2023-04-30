@@ -1,0 +1,92 @@
+.prod {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.cartprod {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  background-color: blanchedalmond;
+}
+.cartitems {
+  background-color: blanchedalmond;
+}
+.product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+.cartproduct {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+  padding: 10px;
+  border: 3px solid black;
+}
+.but1 {
+  font-size: 20px;
+  padding: 10px;
+  background-color: rgb(6, 162, 214);
+  cursor: pointer;
+}
+.but2 {
+  font-size: 20px;
+  padding: 10px;
+  background-color: brown;
+  cursor: pointer;
+}
+.price {
+  font-size: 50px;
+  color: rgb(41, 160, 41);
+}
+.cusfav {
+  border: 3px solid black;
+  text-align: center;
+  background-color: yellow;
+}
+.name {
+  font-size: 40px;
+}
+.filterbuttons {
+  font-size: 20px;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+}
+.dec {
+  font-size: 20px;
+  background-color: red;
+}
+.inc {
+  font-size: 20px;
+  background-color: green;
+}
+.name {
+  border: 2px solid black;
+  background-color: yellow;
+  font-size: 25px;
+}
+.quant {
+  border: 1px solid black;
+  padding: 5.5px;
+  background-color: black;
+  color: white;
+}
+.remove {
+  background-color: brown;
+}
+.clearcart {
+  background-color: red;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}

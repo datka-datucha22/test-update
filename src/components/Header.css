@@ -1,0 +1,68 @@
+ul {
+  display: flex;
+  background-color: yellow;
+  justify-content: space-evenly;
+}
+
+li {
+  float: left;
+}
+.linkebi {
+  display: flex;
+  padding-top: 2px;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 6px 14px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: red;
+}
+.slider {
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image {
+  width: 1000px;
+  height: 600px;
+  border-radius: 10px;
+}
+
+.right-arrow {
+  position: absolute;
+  right: 52px;
+  font-size: 3rem;
+  color: #000;
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+}
+
+.left-arrow {
+  position: absolute;
+  left: 54px;
+  font-size: 3rem;
+  color: #000;
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+}
+
+.slide {
+  opacity: 0;
+  transition-duration: 1s ease;
+}
+
+.slide.active {
+  opacity: 1;
+  transition-duration: 1s;
+  transform: scale(1.08);
+}

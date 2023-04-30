@@ -1,0 +1,10 @@
+.map {
+  width: 90vw;
+  height: 500px;
+  display: flex;
+  padding-top: 60px;
+  margin-left: 5vw;
+}
+.parent {
+  height: 100%;
+}

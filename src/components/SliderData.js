@@ -1,0 +1,22 @@
+export const SliderData = [
+  {
+    image:
+      "https://cals.cornell.edu/sites/default/files/styles/hero_home_desktop/public/2022-06/ifs-hero-food-still-life-1920x1080x72.jpg?h=36398e41&itok=3jGAIYIE",
+  },
+  {
+    image:
+      "https://newsroom.unsw.edu.au/sites/default/files/thumbnails/image/shutterstock_1234505608_1.jpg",
+  },
+  {
+    image:
+      "https://evoke.ie/wp-content/uploads/2023/03/332748275_873194020580069_1419245163461513321_n.jpg",
+  },
+  {
+    image:
+      "https://api.vip.foodnetwork.ca/wp-content/uploads/2022/01/FNC_OGImage_Taiwanese-Beef-Noodle-Soup.jpg",
+  },
+  {
+    image:
+      "https://www.thespruceeats.com/thmb/PKK63OuoTMaezzPYvaq2fy-TB5Y=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/bar101-cocktails-504754220-580e83415f9b58564cf470b9.jpg",
+  },
+];
